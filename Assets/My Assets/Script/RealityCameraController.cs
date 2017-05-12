@@ -12,9 +12,11 @@ public class RealityCameraController : MonoBehaviour {
 		if (!VRSettings.isDeviceActive && WebCamTexture.devices.Length > 0) {
 			cam.enabled = true;
 			cam.aspect = (4f / 3);
-			Material webcamMat = new Material ("Unlit/Transparent Cutout");
+			Material webcamMat = new Material (Shader.Find("Unlit/Transparent Cutout"));
+			WebCamTexture webcamTex = new WebCamTexture ();
+			webcamMat.mainTexture = webcamTex;
 			webcamFeed.material = webcamMat;
-			webcamMat.mainTexture = new WebCamTexture ();
+			webcamTex.Play ();
 		} else {
 			cam.enabled = false;
 		}
