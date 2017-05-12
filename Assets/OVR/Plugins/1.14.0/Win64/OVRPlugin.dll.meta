@@ -1,7 +1,6 @@
 fileFormatVersion: 2
-guid: 4ae85c04161638e4f98ce7546caea76b
-folderAsset: yes
-timeCreated: 1494596286
+guid: ba2081b45b2b82c45a335825d031e69f
+timeCreated: 1494596916
 licenseType: Free
 PluginImporter:
   serializedVersion: 2
@@ -16,8 +15,8 @@ PluginImporter:
       second:
         enabled: 0
         settings:
-          CPU: AnyCPU
-          OS: OSX
+          CPU: X86_64
+          OS: Windows
     data:
       first:
         Android: Android
@@ -37,24 +36,12 @@ PluginImporter:
       second:
         enabled: 1
         settings:
-          CPU: AnyCPU
+          CPU: X86_64
           DefaultValueInitialized: true
-          OS: OSX
+          OS: Windows
     data:
       first:
-        Standalone: OSXIntel
-      second:
-        enabled: 1
-        settings: {}
-    data:
-      first:
-        Standalone: OSXIntel64
-      second:
-        enabled: 1
-        settings: {}
-    data:
-      first:
-        Standalone: OSXUniversal
+        Standalone: Win64
       second:
         enabled: 1
         settings: {}
