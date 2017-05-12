@@ -1,8 +1,8 @@
 fileFormatVersion: 2
 guid: 4ae85c04161638e4f98ce7546caea76b
 folderAsset: yes
-timeCreated: 1493411996
-licenseType: Pro
+timeCreated: 1494596266
+licenseType: Free
 PluginImporter:
   serializedVersion: 2
   iconMap: {}
@@ -10,6 +10,21 @@ PluginImporter:
   isPreloaded: 0
   isOverridable: 0
   platformData:
+    data:
+      first:
+        '': Editor
+      second:
+        enabled: 0
+        settings:
+          CPU: AnyCPU
+          OS: OSX
+    data:
+      first:
+        Android: Android
+      second:
+        enabled: 0
+        settings:
+          CPU: ARMv7
     data:
       first:
         Any: 
@@ -22,7 +37,9 @@ PluginImporter:
       second:
         enabled: 1
         settings:
+          CPU: AnyCPU
           DefaultValueInitialized: true
+          OS: OSX
     data:
       first:
         Standalone: OSXIntel
